@@ -1,0 +1,80 @@
+Dec 15 21:14:38	[INFO]	logger.go:66	Logger initialized successfully
+Dec 15 21:14:38	[INFO]	connection.go:23	connecting to database
+Dec 15 21:14:38	[INFO]	caller.go:45	connection with gateway established
+Dec 15 21:14:38	[DEBUG]	user.go:77	User-Login Started
+Dec 15 21:14:38	[DEBUG]	user.go:56	Creating user login request
+Dec 15 21:14:38	[DEBUG]	user.go:18	Initializing new LogonIN structure
+Dec 15 21:14:38	[DEBUG]	user.go:60	Checksum calculated	{"Checksum": "\ufffd\ufffd2\ufffd]\ufffdظ\u0012\ufffd\ufffdý\ufffd\ufffd."}
+Dec 15 21:14:38	[DEBUG]	user.go:83	sending user logonIn request
+Dec 15 21:14:38	[DEBUG]	network.go:25	Preparing to send data	{"requestType": "signon-in"}
+Dec 15 21:14:38	[INFO]	network.go:42	  	{"bytes send": 300}
+Dec 15 21:14:38	[INFO]	user.go:89	Request sent	{"request": {"BodyLen":300,"SeqNum":1,"CheckSum":[130,203,50,246,93,234,216,184,18,210,240,195,189,138,160,46],"MsgData":{"MessageHeader":{"TransactionCode":2300,"LogTime":0,"AlphaChar":[0,0],"UserId":32106,"ErrorCode":0,"TimeStamp":[0,0,0,0,0,0,0,0],"TimeStamp1":[0,0,0,0,0,0,0,0],"TimeStamp2":[0,0,0,0,0,0,0,0],"MessageLength":278},"UserId":32106,"Reserved":[0,0,0,0,0,0,0,0],"Password":[112,97,115,115,64,49,50,51,52,53,54,55],"Reserved1":[0,0,0,0],"Reserved2":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"BrokerId":[48,55,55,51,48],"Reserved3":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"Reserved4":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"Reserved5":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"Reserved6":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}}}
+Dec 15 21:14:38	[INFO]	network.go:97		{"bytes received": 300}
+Dec 15 21:14:38	[INFO]	network.go:99	LogonOut response received
+Dec 15 21:14:38	[INFO]	logonout.go:36	no. of trades to download, 	{"streamCount": 3}
+Dec 15 21:14:38	[INFO]	user.go:97	user logonOut response received	{"parsedResponse": {"BodyLen":300,"SeqNum":1,"CheckSum":[171,106,68,50,234,133,93,242,51,82,110,147,139,51,43,31],"MsgData":{"MessageHeader":{"TransactionCode":2301,"LogTime":1734277478,"AlphaChar":[3,0],"UserId":32106,"ErrorCode":0,"TimeStamp":[0,0,0,0,0,0,0,0],"TimeStamp1":[0,0,0,0,0,0,0,0],"TimeStamp2":[0,0,0,0,0,0,0,0],"MessageLength":204},"UserId":32106,"Reserved":[0,0,0,0,0,0,0,0],"Password":[112,97,115,115,64,49,50,51,52,53,54,55],"Reserved1":[0,0,0,0],"Reserved2":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"BrokerId":[48,55,55,51,48],"Reserved3":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"Reserved4":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"Reserved5":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"Reserved6":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}}}
+Dec 15 21:14:38	[DEBUG]	user.go:99	User-Login Ended
+Dec 15 21:14:38	[INFO]	feed.go:67	Initializing lastSeqSendToExcng to 0
+Dec 15 21:14:38	[DEBUG]	feed.go:42	Creating DC download request
+Dec 15 21:14:38	[DEBUG]	feed.go:18	Initializing DC Download Request
+Dec 15 21:14:38	[DEBUG]	feed.go:52	SeqNum is : 	{"------------------------------------------------------------------": 0}
+Dec 15 21:14:38	[INFO]	feed.go:73	sending dc_download request
+Dec 15 21:14:38	[DEBUG]	network.go:25	Preparing to send data	{"requestType": "drop-copy-downland-request"}
+Dec 15 21:14:38	[INFO]	network.go:42	  	{"bytes send": 70}
+Dec 15 21:14:38	[DEBUG]	network.go:120	We are inside the case of Trade Confermation 1 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:124	lastSeqSendToExcng : 	{"": 1629055971}
+Dec 15 21:14:38	[INFO]	network.go:125		{"bytes received": 321}
+Dec 15 21:14:38	[INFO]	network.go:126	TradeConfirmation response received
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:24	processing TradeConfirmation response
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:69	Extracted Trade details	{"ExtractTrade": {"ResponseOrderNumber":1,"BrokerId":"07730","TradeNum":1,"AccountNum":"81818101","BuySell":"B","OriginalVol":35,"DisclosedVol":35,"RemainingVol":35,"DisclosedVolRemaining":35,"Price":35000,"StOrderFlags":1,"Gtd":35,"FillNumber":0,"FillQty":0,"FillPrice":0,"VolFilledToday":0,"ActivityType":"A","ActivityTime":1734277478,"OpOrderNum":100000,"OpBrokerId":"BROK2","Token":0,"InstrumentName":"OPNSTK","Symbol":"SYMBL","ExpiryDate":"2024-12-15T21:14:38+05:30","StrikePrice":35000,"OptionType":"C","CALevel":"L1","OpenClose":"1","OldOpenClose":"0","AdditionalOrderFlags":"1","GiveUpTrade":"","PAN":"PAN0000001","OldPan":"OLDPAN001","AlgoId":1,"AlgoCategory":"AC","LastActivityReference":"1","NnfField":"11"}}
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:70	trade details extracted sucessfully
+Dec 15 21:14:38	[DEBUG]	network.go:128	We are inside the case of Trade Confermation 2 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:134	We are inside the case of Trade Confermation 3 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:139	We are inside the case of Trade Confermation 4 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:141	Here we are printing the values of sequence NUmber 	{"": 1629055971}
+Dec 15 21:14:38	[INFO]	feed.go:89	Received response, updated lastSeqSendToExcng	{"seqNum": 1629055971}
+Dec 15 21:14:38	[INFO]	feed.go:99	passing trade to tradeChan channel.
+Dec 15 21:14:38	[DEBUG]	feed.go:42	Creating DC download request
+Dec 15 21:14:38	[DEBUG]	feed.go:18	Initializing DC Download Request
+Dec 15 21:14:38	[INFO]	processer.go:17	Inserting record into DB
+Dec 15 21:14:38	[DEBUG]	feed.go:52	SeqNum is : 	{"------------------------------------------------------------------": 1629055971}
+Dec 15 21:14:38	[INFO]	feed.go:73	sending dc_download request
+Dec 15 21:14:38	[DEBUG]	network.go:25	Preparing to send data	{"requestType": "drop-copy-downland-request"}
+Dec 15 21:14:38	[INFO]	network.go:42	  	{"bytes send": 70}
+Dec 15 21:14:38	[DEBUG]	network.go:120	We are inside the case of Trade Confermation 1 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:124	lastSeqSendToExcng : 	{"": 1629055972}
+Dec 15 21:14:38	[INFO]	network.go:125		{"bytes received": 321}
+Dec 15 21:14:38	[INFO]	network.go:126	TradeConfirmation response received
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:24	processing TradeConfirmation response
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:69	Extracted Trade details	{"ExtractTrade": {"ResponseOrderNumber":1,"BrokerId":"07730","TradeNum":1,"AccountNum":"81818101","BuySell":"B","OriginalVol":35,"DisclosedVol":35,"RemainingVol":35,"DisclosedVolRemaining":35,"Price":35000,"StOrderFlags":1,"Gtd":35,"FillNumber":0,"FillQty":0,"FillPrice":0,"VolFilledToday":0,"ActivityType":"A","ActivityTime":1734277478,"OpOrderNum":100000,"OpBrokerId":"BROK2","Token":0,"InstrumentName":"OPNSTK","Symbol":"SYMBL","ExpiryDate":"2024-12-15T21:14:38+05:30","StrikePrice":35000,"OptionType":"C","CALevel":"L1","OpenClose":"1","OldOpenClose":"0","AdditionalOrderFlags":"1","GiveUpTrade":"","PAN":"PAN0000001","OldPan":"OLDPAN001","AlgoId":1,"AlgoCategory":"AC","LastActivityReference":"1","NnfField":"11"}}
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:70	trade details extracted sucessfully
+Dec 15 21:14:38	[DEBUG]	network.go:128	We are inside the case of Trade Confermation 2 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:134	We are inside the case of Trade Confermation 3 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:139	We are inside the case of Trade Confermation 4 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:141	Here we are printing the values of sequence NUmber 	{"": 1629055972}
+Dec 15 21:14:38	[INFO]	feed.go:89	Received response, updated lastSeqSendToExcng	{"seqNum": 1629055972}
+Dec 15 21:14:38	[INFO]	feed.go:99	passing trade to tradeChan channel.
+Dec 15 21:14:38	[DEBUG]	feed.go:42	Creating DC download request
+Dec 15 21:14:38	[DEBUG]	feed.go:18	Initializing DC Download Request
+Dec 15 21:14:38	[DEBUG]	feed.go:52	SeqNum is : 	{"------------------------------------------------------------------": 1629055972}
+Dec 15 21:14:38	[INFO]	feed.go:73	sending dc_download request
+Dec 15 21:14:38	[DEBUG]	network.go:25	Preparing to send data	{"requestType": "drop-copy-downland-request"}
+Dec 15 21:14:38	[INFO]	network.go:42	  	{"bytes send": 70}
+Dec 15 21:14:38	[INFO]	processer.go:17	Inserting record into DB
+Dec 15 21:14:38	[DEBUG]	network.go:120	We are inside the case of Trade Confermation 1 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:124	lastSeqSendToExcng : 	{"": 1629055972}
+Dec 15 21:14:38	[INFO]	network.go:125		{"bytes received": 321}
+Dec 15 21:14:38	[INFO]	network.go:126	TradeConfirmation response received
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:24	processing TradeConfirmation response
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:69	Extracted Trade details	{"ExtractTrade": {"ResponseOrderNumber":1,"BrokerId":"07730","TradeNum":1,"AccountNum":"81818101","BuySell":"B","OriginalVol":35,"DisclosedVol":35,"RemainingVol":35,"DisclosedVolRemaining":35,"Price":35000,"StOrderFlags":1,"Gtd":35,"FillNumber":0,"FillQty":0,"FillPrice":0,"VolFilledToday":0,"ActivityType":"A","ActivityTime":1734277478,"OpOrderNum":100000,"OpBrokerId":"BROK2","Token":0,"InstrumentName":"OPNSTK","Symbol":"SYMBL","ExpiryDate":"2024-12-15T21:14:38+05:30","StrikePrice":35000,"OptionType":"C","CALevel":"L1","OpenClose":"1","OldOpenClose":"0","AdditionalOrderFlags":"1","GiveUpTrade":"","PAN":"PAN0000001","OldPan":"OLDPAN001","AlgoId":1,"AlgoCategory":"AC","LastActivityReference":"1","NnfField":"11"}}
+Dec 15 21:14:38	[INFO]	tradeconfirmation.go:70	trade details extracted sucessfully
+Dec 15 21:14:38	[DEBUG]	network.go:128	We are inside the case of Trade Confermation 2 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:134	We are inside the case of Trade Confermation 3 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:139	We are inside the case of Trade Confermation 4 ***************************
+Dec 15 21:14:38	[DEBUG]	network.go:141	Here we are printing the values of sequence NUmber 	{"": 1629055972}
+Dec 15 21:14:38	[INFO]	feed.go:89	Received response, updated lastSeqSendToExcng	{"seqNum": 1629055972}
+Dec 15 21:14:38	[INFO]	feed.go:99	passing trade to tradeChan channel.
+Dec 15 21:14:38	[INFO]	processer.go:17	Inserting record into DB
+Dec 15 21:14:38	[INFO]	processer.go:54	Trade successfully inserted into database using raw query
+Dec 15 21:14:38	[INFO]	processer.go:54	Trade successfully inserted into database using raw query
+Dec 15 21:14:38	[INFO]	processer.go:54	Trade successfully inserted into database using raw query
